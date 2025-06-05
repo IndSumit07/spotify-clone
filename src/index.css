@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --bg-color: #FFE8BC;
+    --main-font: "Poppins";
+    --secondary-font: "Chakra Petch";
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
