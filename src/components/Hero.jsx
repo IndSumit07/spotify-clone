@@ -3,6 +3,7 @@ import trendingAlbums from '../localdatabase/TrendingAlbums';
 import RectangleCategoryCard from './RectangleCategoryCard';
 import SquareAlbumCard from './SquareAlbumCard';
 import recentlyPlayed from '../localdatabase/RecentlyPlayed';
+import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div className="w-full h-auto min-h-screen bg-[var(--bg-color)] py-10 ">
@@ -22,7 +23,7 @@ const Hero = () => {
         <div className="py-5 text-2xl font-semibold">Good afternoon!</div>
         <div className="grid grid-cols-2 grid-rows-3 gap-x-2 gap-y-1 justify-center place-items-center justify-items-center">
           {trendingAlbums.map((album) => (
-            <RectangleCategoryCard props={album} />
+            <RectangleCategoryCard key={album.id} props={album} />
           ))}
         </div>
       </div>
@@ -42,6 +43,9 @@ const Hero = () => {
           ))}
         </div>
       </div>
+      <Link to='/details'>
+          Details
+      </Link>
     </div>
   );
 }
