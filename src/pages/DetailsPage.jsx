@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import DetailsPageRectangleCard from "../components/DetailsPageRectangleCard";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -7,7 +7,10 @@ const DetailsPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const {title,coverImage, singer} = location.state || {};
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="w-full min-h-screen h-auto bg-[#EDC7FF] py-16 relative">
       <div onClick={()=>{

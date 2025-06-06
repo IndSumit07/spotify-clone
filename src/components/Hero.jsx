@@ -3,6 +3,7 @@ import trendingAlbums from '../localdatabase/TrendingAlbums';
 import RectangleCategoryCard from './RectangleCategoryCard';
 import SquareAlbumCard from './SquareAlbumCard';
 import recentlyPlayed from '../localdatabase/RecentlyPlayed';
+import madeForYou from '../localdatabase/MadeForYou';
 import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
@@ -38,14 +39,11 @@ const Hero = () => {
       <div className=" ">
         <div className="py-5 text-2xl font-semibold px-5">Made for You</div>
         <div className="flex justify-start items-center gap-3 overflow-x-auto scrollbar-hide scroll-smooth snap-x snap-mandatory pl-5">
-          {recentlyPlayed.map((song) => (
+          {madeForYou.map((song) => (
             <SquareAlbumCard props={song} />
           ))}
         </div>
       </div>
-      <Link to='/details'>
-          Details
-      </Link>
     </div>
   );
 }

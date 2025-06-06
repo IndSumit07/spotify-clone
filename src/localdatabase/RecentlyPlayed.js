@@ -15,6 +15,9 @@ import cover20 from "../../public/cover-20.jpg";
 import cover21 from "../../public/cover-21.jpg";
 import cover22 from "../../public/cover-22.jpg";
 import cover23 from "../../public/cover-23.jpg";
+import cover24 from "../../public/cover-24.jpg";
+import cover25 from "../../public/cover-25.jpg";
+import cover26 from "../../public/cover-26.jpg";
 
 const recentlyPlayed = [
   {
@@ -134,6 +137,27 @@ const recentlyPlayed = [
     coverImage: cover23,
     title: "Let Me Down Slowly",
     singer: "Alec Benjamin",
+    duration: "2:49",
+  },
+  {
+    id: 24,
+    coverImage: cover24,
+    title: "Knock Konck",
+    singer: "Kr$na",
+    duration: "2:49",
+  },
+  {
+    id: 25,
+    coverImage: cover25,
+    title: "Farebi",
+    singer: "ChaarDiwari",
+    duration: "2:49",
+  },
+  {
+    id: 26,
+    coverImage: cover26,
+    title: "Sensitive",
+    singer: "Kr$na",
     duration: "2:49",
   },
 ];
