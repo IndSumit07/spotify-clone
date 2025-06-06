@@ -1,5 +1,4 @@
 import React from "react";
-import cover1 from "../../public/cover-1.jpg";
 import DetailsPageRectangleCard from "../components/DetailsPageRectangleCard";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -25,7 +24,7 @@ const DetailsPage = () => {
         <h3 className="text-2xl font-semibold">{title}</h3>
         <div className="flex mt-1 justify-start gap-2 items-center">
           <div className="w-[25px] h-[25px] rounded-full overflow-hidden ">
-            <img src={cover1} alt="" />
+            <img src={coverImage} alt="" />
           </div>
           <p className="text-[12px] font-semibold">{singer}</p>
         </div>

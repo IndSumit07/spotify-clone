@@ -35,7 +35,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="mt-2 ">
+      <div className=" ">
         <div className="py-5 text-2xl font-semibold px-5">Made for You</div>
         <div className="flex justify-start items-center gap-3 overflow-x-auto scrollbar-hide scroll-smooth snap-x snap-mandatory pl-5">
           {recentlyPlayed.map((song) => (
