@@ -13,7 +13,7 @@ const DetailsPage = () => {
       <div onClick={()=>{
         navigate(-1)
       }} className="absolute top-8 left-4">
-        <i className= "bg-white px-3 rounded-full border-black border-[2px] py-3 ri-arrow-left-line "></i>
+        <i className= "bg-white px-2 rounded-full border-black border-[2px] py-2 ri-arrow-left-line "></i>
       </div>
       <div className="w-full h-[250px] overflow-hidden mt-2 flex justify-center items-center ">
         <div className="w-[250px] h-[250px] overflow-hidden rounded-lg border-black border-[2px] border-r-[4px] border-b-[4px]">
