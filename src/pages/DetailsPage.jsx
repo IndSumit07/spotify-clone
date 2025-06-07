@@ -45,7 +45,7 @@ const DetailsPage = () => {
           <i className="font-bold text-2xl ri-more-line"></i>
         </div>
         <div className="absolute right-6 bottom-12 flex justify-center items-center">
-          <i className="bg-green-600 rounded-full  text-white px-4 py-3 text-xl ri-play-fill"></i>
+          <i className={`border-black border-[2px] rounded-full  text-white px-4 py-3 text-xl ri-play-fill`} style={{backgroundColor:"white", color:color}}></i>
         </div>
       </div>
       <div className="flex flex-col gap-1 justify-center items-center">
