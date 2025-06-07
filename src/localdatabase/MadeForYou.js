@@ -26,6 +26,7 @@ const madeForYou = [
     title: "Unstoppable",
     singer: "Sia",
     duration: "3:38",
+    glowColor: "#FF6B6B",
   },
   {
     id: 28,
@@ -33,6 +34,7 @@ const madeForYou = [
     title: "Until I Found You",
     singer: "Stephen Sanchez",
     duration: "2:57",
+    glowColor: "#6BFF95",
   },
   {
     id: 29,
@@ -40,6 +42,7 @@ const madeForYou = [
     title: "Levitating",
     singer: "Dua Lipa",
     duration: "3:23",
+    glowColor: "#6B9BFF",
   },
   {
     id: 30,
@@ -47,6 +50,7 @@ const madeForYou = [
     title: "Love Me Like You Do",
     singer: "Ellie Goulding",
     duration: "4:10",
+    glowColor: "#FFD56B",
   },
   {
     id: 31,
@@ -54,6 +58,7 @@ const madeForYou = [
     title: "Infinity",
     singer: "Jaymes Young",
     duration: "3:57",
+    glowColor: "#FF6BCD",
   },
   {
     id: 32,
@@ -61,6 +66,7 @@ const madeForYou = [
     title: "Arcade",
     singer: "Duncan Laurence",
     duration: "3:04",
+    glowColor: "#B26BFF",
   },
   {
     id: 33,
@@ -68,6 +74,7 @@ const madeForYou = [
     title: "Bones",
     singer: "Imagine Dragons",
     duration: "2:45",
+    glowColor: "#6BFFD1",
   },
   {
     id: 34,
@@ -75,6 +82,7 @@ const madeForYou = [
     title: "Stay",
     singer: "The Kid LAROI, Justin Bieber",
     duration: "2:21",
+    glowColor: "#FFA26B",
   },
   {
     id: 35,
@@ -82,6 +90,7 @@ const madeForYou = [
     title: "Photograph",
     singer: "Ed Sheeran",
     duration: "4:19",
+    glowColor: "#A2FF6B",
   },
   {
     id: 36,
@@ -89,6 +98,7 @@ const madeForYou = [
     title: "Wolves",
     singer: "Selena Gomez, Marshmello",
     duration: "3:17",
+    glowColor: "#6BDAFF",
   },
   {
     id: 37,
@@ -96,6 +106,7 @@ const madeForYou = [
     title: "Believer",
     singer: "Imagine Dragons",
     duration: "3:24",
+    glowColor: "#FF6BAA",
   },
   {
     id: 38,
@@ -103,6 +114,7 @@ const madeForYou = [
     title: "Treat You Better",
     singer: "Shawn Mendes",
     duration: "3:07",
+    glowColor: "#6BFFEF",
   },
   {
     id: 39,
@@ -110,6 +122,7 @@ const madeForYou = [
     title: "See You Again",
     singer: "Wiz Khalifa, Charlie Puth",
     duration: "3:49",
+    glowColor: "#FFC36B",
   },
   {
     id: 40,
@@ -117,6 +130,7 @@ const madeForYou = [
     title: "Attention",
     singer: "Charlie Puth",
     duration: "3:28",
+    glowColor: "#D26BFF",
   },
   {
     id: 41,
@@ -124,6 +138,7 @@ const madeForYou = [
     title: "There's Nothing Holdin' Me Back",
     singer: "Shawn Mendes",
     duration: "3:19",
+    glowColor: "#6BA8FF",
   },
   {
     id: 42,
@@ -131,6 +146,7 @@ const madeForYou = [
     title: "Memories",
     singer: "Maroon 5",
     duration: "3:09",
+    glowColor: "#FF6B80",
   },
   {
     id: 43,
@@ -138,6 +154,7 @@ const madeForYou = [
     title: "Let Her Go",
     singer: "Passenger",
     duration: "4:12",
+    glowColor: "#6BFFB2",
   },
   {
     id: 44,
@@ -145,6 +162,7 @@ const madeForYou = [
     title: "Shivers",
     singer: "Ed Sheeran",
     duration: "3:27",
+    glowColor: "#FFB26B",
   },
   {
     id: 45,
@@ -152,6 +170,7 @@ const madeForYou = [
     title: "Love Nwantiti",
     singer: "CKay",
     duration: "2:56",
+    glowColor: "#6BFFFC",
   },
   {
     id: 46,
@@ -159,7 +178,8 @@ const madeForYou = [
     title: "Positions",
     singer: "Ariana Grande",
     duration: "2:52",
+    glowColor: "#FF6BEB",
   },
 ];
 
-export default madeForYou
+export default madeForYou;

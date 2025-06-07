@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-    <div className="fixed bottom-0 py-3 px-5 bg-black/50 w-full">
+    <div className="fixed bottom-0 py-3 px-5 bg-black/50 w-full z-50">
     <Navbar/>
     </div>
       <Routes>

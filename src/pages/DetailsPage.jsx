@@ -6,20 +6,25 @@ import { useLocation } from "react-router-dom";
 const DetailsPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const {title,coverImage, singer} = location.state || {};
+  const {title,coverImage, singer, color} = location.state || {};
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   
   return (
-    <div className="w-full min-h-screen h-auto bg-[#EDC7FF] py-16 relative">
-      <div onClick={()=>{
-        navigate(-1)
-      }} className="absolute top-8 left-4">
-        <i className= "bg-white px-2 rounded-full border-black border-[2px] py-2 ri-arrow-left-line "></i>
+    <div
+      className={`w-full min-h-screen h-auto py-16 relative`}
+      style={{ backgroundColor: color }}>
+      <div
+        onClick={() => {
+          navigate(-1);
+        }}
+        className="absolute top-8 left-4">
+        <i className="bg-white px-2 rounded-full border-black border-[2px] py-2 ri-arrow-left-line "></i>
       </div>
       <div className="w-full h-[250px] overflow-hidden mt-2 flex justify-center items-center ">
-        <div className="w-[250px] h-[250px] overflow-hidden rounded-lg border-black border-[2px] border-r-[4px] border-b-[4px]">
+        <div
+          className="w-[250px] h-[250px] overflow-hidden rounded-lg border-black border-[2px] border-r-[4px] border-b-[4px]">
           <img src={coverImage} alt="" />
         </div>
       </div>

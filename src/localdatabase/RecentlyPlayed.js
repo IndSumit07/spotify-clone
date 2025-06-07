@@ -26,6 +26,7 @@ const recentlyPlayed = [
     title: "Tum Mile",
     singer: "Pritam, Neeraj Shridhar",
     duration: "4:25",
+    glowColor: "#ff4d4d",
   },
   {
     id: 8,
@@ -33,6 +34,7 @@ const recentlyPlayed = [
     title: "Blinding Lights",
     singer: "The Weeknd",
     duration: "3:20",
+    glowColor: "#ffcc00",
   },
   {
     id: 9,
@@ -40,6 +42,7 @@ const recentlyPlayed = [
     title: "Kesariya",
     singer: "Arijit Singh",
     duration: "4:28",
+    glowColor: "#ffa500",
   },
   {
     id: 10,
@@ -47,6 +50,7 @@ const recentlyPlayed = [
     title: "Pasoori",
     singer: "Ali Sethi, Shae Gill",
     duration: "3:44",
+    glowColor: "#ff0066",
   },
   {
     id: 11,
@@ -54,6 +58,7 @@ const recentlyPlayed = [
     title: "Night Changes",
     singer: "One Direction",
     duration: "3:46",
+    glowColor: "#0099ff",
   },
   {
     id: 12,
@@ -61,6 +66,7 @@ const recentlyPlayed = [
     title: "Excuses",
     singer: "AP Dhillon, Gurinder Gill",
     duration: "2:56",
+    glowColor: "#66ffcc",
   },
   {
     id: 13,
@@ -68,6 +74,7 @@ const recentlyPlayed = [
     title: "Channa Mereya",
     singer: "Arijit Singh",
     duration: "4:49",
+    glowColor: "#ff9999",
   },
   {
     id: 14,
@@ -75,6 +82,7 @@ const recentlyPlayed = [
     title: "Starboy",
     singer: "The Weeknd, Daft Punk",
     duration: "3:50",
+    glowColor: "#6600cc",
   },
   {
     id: 15,
@@ -82,6 +90,7 @@ const recentlyPlayed = [
     title: "Raataan Lambiyan",
     singer: "Jubin Nautiyal, Asees Kaur",
     duration: "3:52",
+    glowColor: "#00cccc",
   },
   {
     id: 16,
@@ -89,6 +98,7 @@ const recentlyPlayed = [
     title: "Tera Ban Jaunga",
     singer: "Akhil Sachdeva, Tulsi Kumar",
     duration: "3:56",
+    glowColor: "#ff66cc",
   },
   {
     id: 17,
@@ -96,6 +106,7 @@ const recentlyPlayed = [
     title: "Perfect",
     singer: "Ed Sheeran",
     duration: "4:23",
+    glowColor: "#ccff66",
   },
   {
     id: 18,
@@ -103,6 +114,7 @@ const recentlyPlayed = [
     title: "Creepin'",
     singer: "Metro Boomin, The Weeknd, 21 Savage",
     duration: "3:41",
+    glowColor: "#ff3399",
   },
   {
     id: 19,
@@ -110,6 +122,7 @@ const recentlyPlayed = [
     title: "Apna Bana Le",
     singer: "Arijit Singh",
     duration: "4:15",
+    glowColor: "#3399ff",
   },
   {
     id: 20,
@@ -117,6 +130,7 @@ const recentlyPlayed = [
     title: "After Hours",
     singer: "The Weeknd",
     duration: "6:01",
+    glowColor: "#cc00ff",
   },
   {
     id: 21,
@@ -124,6 +138,7 @@ const recentlyPlayed = [
     title: "Tujhe Kitna Chahne Lage",
     singer: "Arijit Singh",
     duration: "4:45",
+    glowColor: "#00cc66",
   },
   {
     id: 22,
@@ -131,6 +146,7 @@ const recentlyPlayed = [
     title: "No Love",
     singer: "Shubh",
     duration: "2:38",
+    glowColor: "#ff9933",
   },
   {
     id: 23,
@@ -138,6 +154,7 @@ const recentlyPlayed = [
     title: "Let Me Down Slowly",
     singer: "Alec Benjamin",
     duration: "2:49",
+    glowColor: "#66b3ff",
   },
   {
     id: 24,
@@ -145,6 +162,7 @@ const recentlyPlayed = [
     title: "Knock Konck",
     singer: "Kr$na",
     duration: "2:49",
+    glowColor: "#cc3333",
   },
   {
     id: 25,
@@ -152,6 +170,7 @@ const recentlyPlayed = [
     title: "Farebi",
     singer: "ChaarDiwari",
     duration: "2:49",
+    glowColor: "#999966",
   },
   {
     id: 26,
@@ -159,7 +178,9 @@ const recentlyPlayed = [
     title: "Sensitive",
     singer: "Kr$na",
     duration: "2:49",
+    glowColor: "#9966cc",
   },
 ];
+
 
 export default recentlyPlayed;
