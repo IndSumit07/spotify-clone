@@ -7,7 +7,7 @@ import madeForYou from '../localdatabase/MadeForYou';
 import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
-    <div className="w-full h-auto min-h-screen bg-[var(--bg-color)] py-10 ">
+    <div className="w-full h-auto min-h-screen bg-[var(--bg-color)] py-10  pb-32">
       <div className="flex justify-start items-center space-x-3 px-5">
         <div className="w-[34px] h-[34px] bg-cover bg-[url(../../public/girl-1-dp.jpg)] rounded-full border-[3px] border-black"></div>
         <button className="text-sm bg-white px-4 py-[5px] rounded-full border-black border-[3px] ">

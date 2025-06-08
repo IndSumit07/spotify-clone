@@ -2,18 +2,22 @@ import React, { useEffect } from "react";
 import DetailsPageRectangleCard from "../components/DetailsPageRectangleCard";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-
+import recentlyPlayed from "../localdatabase/RecentlyPlayed";
+import madeForYou from "../localdatabase/MadeForYou";
 const DetailsPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const {title,coverImage, singer, color} = location.state || {};
+  const {title, coverImage, singer, color, related} = location.state || {};
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+  const allSongs=[...recentlyPlayed, ...madeForYou]
+  const relatedsongs=allSongs.filter((song)=>{
+    return related?.includes(song.id)
+  })
   return (
     <div
-      className={`w-full min-h-screen h-auto py-16 relative`}
+      className={`w-full min-h-screen h-auto py-16 relative pb-40`}
       style={{ backgroundColor: color }}>
       <div
         onClick={() => {
@@ -23,8 +27,7 @@ const DetailsPage = () => {
         <i className="bg-white px-2 rounded-full border-black border-[2px] py-2 ri-arrow-left-line "></i>
       </div>
       <div className="w-full h-[250px] overflow-hidden mt-2 flex justify-center items-center ">
-        <div
-          className="w-[250px] h-[250px] overflow-hidden rounded-lg border-black border-[2px] border-r-[4px] border-b-[4px]">
+        <div className="w-[250px] h-[250px] overflow-hidden rounded-lg border-black border-[2px] border-r-[4px] border-b-[4px]">
           <img src={coverImage} alt="" />
         </div>
       </div>
@@ -45,21 +48,22 @@ const DetailsPage = () => {
           <i className="font-bold text-2xl ri-more-line"></i>
         </div>
         <div className="absolute right-6 bottom-12 flex justify-center items-center">
-          <i className={`border-black border-[2px] rounded-full  text-white px-4 py-3 text-xl ri-play-fill`} style={{backgroundColor:"white", color:color}}></i>
+          <i
+            className={`border-black border-[2px] rounded-full  text-white px-4 py-3 text-xl ri-play-fill`}
+            style={{ backgroundColor: "white", color: color }}></i>
         </div>
       </div>
       <div className="flex flex-col gap-1 justify-center items-center">
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
-        <DetailsPageRectangleCard />
+        <DetailsPageRectangleCard title={title} singer={singer} />
+        {relatedsongs ? <div className="py-5">
+          <p className="text-start text-xl ">You might also like</p>
+        </div>: ""}
+        {relatedsongs.map((song) => (
+          <DetailsPageRectangleCard
+            title={song.title}
+            singer={song.singer}
+          />
+        ))}
       </div>
     </div>
   );

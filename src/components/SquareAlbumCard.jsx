@@ -10,6 +10,7 @@ const SquareAlbumCard = ({ props }) => {
         coverImage: props.coverImage,
         singer: props.singer,
         color: props.glowColor,
+        related:props.relatedSongs
       }}
       className="h-[190px] "
      >

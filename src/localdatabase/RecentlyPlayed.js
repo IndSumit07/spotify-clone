@@ -18,6 +18,7 @@ import cover23 from "../../public/cover-23.jpg";
 import cover24 from "../../public/cover-24.jpg";
 import cover25 from "../../public/cover-25.jpg";
 import cover26 from "../../public/cover-26.jpg";
+import cover27 from "../../public/cover-27.jpg";
 
 const recentlyPlayed = [
   {
@@ -27,6 +28,7 @@ const recentlyPlayed = [
     singer: "Pritam, Neeraj Shridhar",
     duration: "4:25",
     glowColor: "#ff4d4d",
+    relatedSongs: [13, 15, 21],
   },
   {
     id: 8,
@@ -35,6 +37,7 @@ const recentlyPlayed = [
     singer: "The Weeknd",
     duration: "3:20",
     glowColor: "#ffcc00",
+    relatedSongs: [14, 18, 20],
   },
   {
     id: 9,
@@ -43,6 +46,7 @@ const recentlyPlayed = [
     singer: "Arijit Singh",
     duration: "4:28",
     glowColor: "#ffa500",
+    relatedSongs: [13, 19, 21],
   },
   {
     id: 10,
@@ -51,6 +55,7 @@ const recentlyPlayed = [
     singer: "Ali Sethi, Shae Gill",
     duration: "3:44",
     glowColor: "#ff0066",
+    relatedSongs: [12, 14, 24],
   },
   {
     id: 11,
@@ -59,6 +64,7 @@ const recentlyPlayed = [
     singer: "One Direction",
     duration: "3:46",
     glowColor: "#0099ff",
+    relatedSongs: [17, 23, 27],
   },
   {
     id: 12,
@@ -67,6 +73,7 @@ const recentlyPlayed = [
     singer: "AP Dhillon, Gurinder Gill",
     duration: "2:56",
     glowColor: "#66ffcc",
+    relatedSongs: [10, 22, 24],
   },
   {
     id: 13,
@@ -75,6 +82,7 @@ const recentlyPlayed = [
     singer: "Arijit Singh",
     duration: "4:49",
     glowColor: "#ff9999",
+    relatedSongs: [9, 19, 21],
   },
   {
     id: 14,
@@ -83,6 +91,7 @@ const recentlyPlayed = [
     singer: "The Weeknd, Daft Punk",
     duration: "3:50",
     glowColor: "#6600cc",
+    relatedSongs: [8, 18, 20],
   },
   {
     id: 15,
@@ -91,6 +100,7 @@ const recentlyPlayed = [
     singer: "Jubin Nautiyal, Asees Kaur",
     duration: "3:52",
     glowColor: "#00cccc",
+    relatedSongs: [7, 13, 16],
   },
   {
     id: 16,
@@ -99,6 +109,7 @@ const recentlyPlayed = [
     singer: "Akhil Sachdeva, Tulsi Kumar",
     duration: "3:56",
     glowColor: "#ff66cc",
+    relatedSongs: [15, 21, 25],
   },
   {
     id: 17,
@@ -107,6 +118,7 @@ const recentlyPlayed = [
     singer: "Ed Sheeran",
     duration: "4:23",
     glowColor: "#ccff66",
+    relatedSongs: [11, 23, 27],
   },
   {
     id: 18,
@@ -115,6 +127,7 @@ const recentlyPlayed = [
     singer: "Metro Boomin, The Weeknd, 21 Savage",
     duration: "3:41",
     glowColor: "#ff3399",
+    relatedSongs: [8, 14, 20],
   },
   {
     id: 19,
@@ -123,6 +136,7 @@ const recentlyPlayed = [
     singer: "Arijit Singh",
     duration: "4:15",
     glowColor: "#3399ff",
+    relatedSongs: [9, 13, 21],
   },
   {
     id: 20,
@@ -131,6 +145,7 @@ const recentlyPlayed = [
     singer: "The Weeknd",
     duration: "6:01",
     glowColor: "#cc00ff",
+    relatedSongs: [8, 14, 18],
   },
   {
     id: 21,
@@ -139,6 +154,7 @@ const recentlyPlayed = [
     singer: "Arijit Singh",
     duration: "4:45",
     glowColor: "#00cc66",
+    relatedSongs: [7, 9, 13],
   },
   {
     id: 22,
@@ -147,6 +163,7 @@ const recentlyPlayed = [
     singer: "Shubh",
     duration: "2:38",
     glowColor: "#ff9933",
+    relatedSongs: [12, 24, 25],
   },
   {
     id: 23,
@@ -155,14 +172,16 @@ const recentlyPlayed = [
     singer: "Alec Benjamin",
     duration: "2:49",
     glowColor: "#66b3ff",
+    relatedSongs: [11, 17, 27],
   },
   {
     id: 24,
     coverImage: cover24,
-    title: "Knock Konck",
+    title: "Knock Knock",
     singer: "Kr$na",
     duration: "2:49",
     glowColor: "#cc3333",
+    relatedSongs: [10, 12, 22],
   },
   {
     id: 25,
@@ -171,6 +190,7 @@ const recentlyPlayed = [
     singer: "ChaarDiwari",
     duration: "2:49",
     glowColor: "#999966",
+    relatedSongs: [16, 22, 26],
   },
   {
     id: 26,
@@ -179,8 +199,17 @@ const recentlyPlayed = [
     singer: "Kr$na",
     duration: "2:49",
     glowColor: "#9966cc",
+    relatedSongs: [24, 25, 27],
+  },
+  {
+    id: 27,
+    coverImage: cover27,
+    title: "Heat Waves",
+    singer: "Glass Animals",
+    duration: "3:58",
+    glowColor: "#ff7f50",
+    relatedSongs: [8, 14, 20],
   },
 ];
-
 
 export default recentlyPlayed;

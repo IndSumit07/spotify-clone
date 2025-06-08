@@ -27,7 +27,7 @@ const Navbar = () => {
         }}
         className="flex flex-col justify-center gap-1 items-center">
         <div className="relative">
-          <i class="ri-search-line text-white text-3xl"></i>
+          <i className="ri-search-line text-white text-3xl"></i>
           {activeLink === "search" ? (
             <div className=" absolute top-[10.2px] left-[8.2px] w-3 h-3 bg-white rounded-full"></div>
           ) : (

@@ -27,6 +27,7 @@ const madeForYou = [
     singer: "Sia",
     duration: "3:38",
     glowColor: "#FF6B6B",
+    relatedSongs: [28, 29, 31],
   },
   {
     id: 28,
@@ -35,6 +36,7 @@ const madeForYou = [
     singer: "Stephen Sanchez",
     duration: "2:57",
     glowColor: "#6BFF95",
+    relatedSongs: [27, 30, 32],
   },
   {
     id: 29,
@@ -43,6 +45,7 @@ const madeForYou = [
     singer: "Dua Lipa",
     duration: "3:23",
     glowColor: "#6B9BFF",
+    relatedSongs: [27, 28, 33],
   },
   {
     id: 30,
@@ -51,6 +54,7 @@ const madeForYou = [
     singer: "Ellie Goulding",
     duration: "4:10",
     glowColor: "#FFD56B",
+    relatedSongs: [28, 34, 35],
   },
   {
     id: 31,
@@ -59,6 +63,7 @@ const madeForYou = [
     singer: "Jaymes Young",
     duration: "3:57",
     glowColor: "#FF6BCD",
+    relatedSongs: [27, 33, 36],
   },
   {
     id: 32,
@@ -67,6 +72,7 @@ const madeForYou = [
     singer: "Duncan Laurence",
     duration: "3:04",
     glowColor: "#B26BFF",
+    relatedSongs: [28, 34, 37],
   },
   {
     id: 33,
@@ -75,6 +81,7 @@ const madeForYou = [
     singer: "Imagine Dragons",
     duration: "2:45",
     glowColor: "#6BFFD1",
+    relatedSongs: [29, 31, 38],
   },
   {
     id: 34,
@@ -83,6 +90,7 @@ const madeForYou = [
     singer: "The Kid LAROI, Justin Bieber",
     duration: "2:21",
     glowColor: "#FFA26B",
+    relatedSongs: [30, 32, 39],
   },
   {
     id: 35,
@@ -91,6 +99,7 @@ const madeForYou = [
     singer: "Ed Sheeran",
     duration: "4:19",
     glowColor: "#A2FF6B",
+    relatedSongs: [30, 36, 40],
   },
   {
     id: 36,
@@ -99,6 +108,7 @@ const madeForYou = [
     singer: "Selena Gomez, Marshmello",
     duration: "3:17",
     glowColor: "#6BDAFF",
+    relatedSongs: [31, 35, 41],
   },
   {
     id: 37,
@@ -107,6 +117,7 @@ const madeForYou = [
     singer: "Imagine Dragons",
     duration: "3:24",
     glowColor: "#FF6BAA",
+    relatedSongs: [32, 38, 42],
   },
   {
     id: 38,
@@ -115,6 +126,7 @@ const madeForYou = [
     singer: "Shawn Mendes",
     duration: "3:07",
     glowColor: "#6BFFEF",
+    relatedSongs: [33, 37, 43],
   },
   {
     id: 39,
@@ -123,6 +135,7 @@ const madeForYou = [
     singer: "Wiz Khalifa, Charlie Puth",
     duration: "3:49",
     glowColor: "#FFC36B",
+    relatedSongs: [34, 40, 44],
   },
   {
     id: 40,
@@ -131,6 +144,7 @@ const madeForYou = [
     singer: "Charlie Puth",
     duration: "3:28",
     glowColor: "#D26BFF",
+    relatedSongs: [35, 39, 45],
   },
   {
     id: 41,
@@ -139,6 +153,7 @@ const madeForYou = [
     singer: "Shawn Mendes",
     duration: "3:19",
     glowColor: "#6BA8FF",
+    relatedSongs: [36, 42, 46],
   },
   {
     id: 42,
@@ -147,6 +162,7 @@ const madeForYou = [
     singer: "Maroon 5",
     duration: "3:09",
     glowColor: "#FF6B80",
+    relatedSongs: [37, 41, 43],
   },
   {
     id: 43,
@@ -155,6 +171,7 @@ const madeForYou = [
     singer: "Passenger",
     duration: "4:12",
     glowColor: "#6BFFB2",
+    relatedSongs: [38, 42, 44],
   },
   {
     id: 44,
@@ -163,6 +180,7 @@ const madeForYou = [
     singer: "Ed Sheeran",
     duration: "3:27",
     glowColor: "#FFB26B",
+    relatedSongs: [39, 43, 45],
   },
   {
     id: 45,
@@ -171,6 +189,7 @@ const madeForYou = [
     singer: "CKay",
     duration: "2:56",
     glowColor: "#6BFFFC",
+    relatedSongs: [40, 44, 46],
   },
   {
     id: 46,
@@ -179,7 +198,9 @@ const madeForYou = [
     singer: "Ariana Grande",
     duration: "2:52",
     glowColor: "#FF6BEB",
+    relatedSongs: [41, 45, 27],
   },
 ];
+
 
 export default madeForYou;
