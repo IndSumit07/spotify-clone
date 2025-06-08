@@ -10,7 +10,7 @@ const Playback = () => {
   return (
     <div className="w-full rounded-xl py-2 px-2 backdrop-blur-sm flex justify-between items-center" style={{backgroundColor:color}}>
       <div className="flex gap-3 justify-center items-center">
-        <div className="w-[45px] h-[45px] rounded-lg bg-red-500 overflow-hidden flex justify-center items-center bg-cover">
+        <div className="w-[45px] h-[45px] rounded-lg bg-red-500 overflow-hidden flex justify-center items-center bg-cover ">
             <img src={coverImage} alt="" />
         </div>
         <div className="flex justify-center items-start flex-col">
